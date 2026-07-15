@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Header from '@/components/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,21 +19,15 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${inter.className} min-h-screen bg-slate-950 text-slate-50 antialiased`}>
         {/* Skip Link pour l'accessibilité au clavier */}
-        <a 
-          href="#main-content" 
+        <a
+          href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:bg-indigo-600 focus:px-4 focus:py-2 focus:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
         >
           Aller au contenu principal
         </a>
 
         <div className="flex min-h-screen flex-col">
-          <header className="border-b border-slate-800 bg-slate-900/50 py-4" role="banner">
-            <div className="container mx-auto flex items-center justify-between px-4">
-              <span className="text-xl font-bold tracking-tight text-indigo-400">
-                A11y<span className="text-white">Auditor</span>
-              </span>
-            </div>
-          </header>
+          <Header />
 
           <main id="main-content" className="flex-1" role="main">
             {children}
