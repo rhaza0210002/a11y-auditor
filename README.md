@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 A11yAuditor
 
-## Getting Started
+> Optimisez, suivez et corrigez l'accessibilité de vos sites web en quelques clics. 100% conforme aux normes WCAG et RGAA.
 
-First, run the development server:
+---
+
+## 🌟 Fonctionnalités (À venir)
+
+- **Micro-audits d'accessibilité** : Collez une URL et obtenez un rapport d'erreurs critiques instantané.
+- **Rapports détaillés** : Visualisez les contrastes défaillants, balises ARIA manquantes ou structures incorrectes.
+- **Suggestions de correction** : Recevez des snippets de code corrigés prêts à être copiés-collés.
+- **Suivi des corrections** : Dashboard collaboratif pour suivre l'avancée de vos résolutions d'accessibilité.
+
+## 🛠️ Stack Technique
+
+Le projet repose sur les technologies les plus modernes et performantes du web :
+
+- **Framework** : [Next.js (App Router)](https://nextjs.org/) (React & TypeScript)
+- **Base de données & Auth** : [Supabase](https://supabase.com/) (PostgreSQL)
+- **Style & UI** : [Tailwind CSS](https://tailwindcss.com/)
+- **Outils d'accessibilité statique** : ESLint with `eslint-plugin-jsx-a11y`
+
+---
+
+## 🚀 Démarrage Rapide (Développement)
+
+### Prérequis
+
+Assurez-vous d'avoir installé [Node.js](https://nodejs.org/) (v18+) et [Yarn](https://yarnpkg.com/).
+
+### 1. Cloner le projet
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/rhaza0210002/a11y-auditor.git](https://github.com/rhaza0210002/a11y-auditor.git)
+cd a11y-auditor
