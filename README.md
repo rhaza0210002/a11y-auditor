@@ -33,3 +33,4 @@ Assurez-vous d'avoir installé [Node.js](https://nodejs.org/) (v18+) et [Yarn](h
 ```bash
 git clone [https://github.com/rhaza0210002/a11y-auditor.git](https://github.com/rhaza0210002/a11y-auditor.git)
 cd a11y-auditor
+
